@@ -1,0 +1,16 @@
+WHILE:
+Blank ignored
+Wrong 1
+Wrong 2
+Wrong 3
+Locked for 30 minutes
+FOR:
+Wrong 1
+Verified on 2
+Security correct:
+Extended allowance: 5
+Wrong 1
+Wrong 2
+Wrong 3
+Wrong 4
+Verified

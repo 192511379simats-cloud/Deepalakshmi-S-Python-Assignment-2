@@ -1,0 +1,10 @@
+ID units ration senior | separate-if | if-elif-else
+H1 100 False False | FULL | FULL
+H2 101 True False | PARTIAL | PARTIAL
+H3 101 False False | NONE | NONE
+H4 200 True False | PARTIAL | PARTIAL
+H5 200 False True | NONE | NONE
+H6 201 False False | NONE | NONE
+H7 201 False True | SENIOR_EXCEPTION | SENIOR_EXCEPTION
+H8 80 True True | FULL | FULL
+Overlap example: ['FULL', 'PARTIAL', 'SENIOR_EXCEPTION']

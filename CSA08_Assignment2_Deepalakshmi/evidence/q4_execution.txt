@@ -1,0 +1,13 @@
+1000 12690 same True +=  [0.0001602720000022373, 9.757699999113356e-05, 7.775699999967856e-05] avg 0.0001118686666643498 join [0.00012033100000508057, 8.265499999993153e-05, 6.161299999973835e-05] avg 8.819966666825015e-05 fstring [0.00016693100000964023, 0.00016895500000657648, 0.000539102000004732] avg 0.00029166266667364954
+10000 136890 same True +=  [0.0014372950000023366, 0.001629434999998125, 0.000977332000005049] avg 0.0013480206666685035 join [0.0018827359999988857, 0.0008527340000057393, 0.0010973530000057963] avg 0.0012776076666701404 fstring [0.001762906000010389, 0.001975095000005922, 0.0016998410000041986] avg 0.0018126140000068365
+200000 3048890 same True +=  [0.031392926000009425, 0.03129366800000355, 0.02207960799999853] avg 0.0282554006666705 join [0.053756132999993156, 0.017664928999991503, 0.018727630000000772] avg 0.030049563999995144 fstring [0.03494084100000805, 0.036093097000005514, 0.03383957200000509] avg 0.03495783666667288
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
